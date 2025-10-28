@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e9dff3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  width: 900px;
+  display: flex;
+  overflow: hidden;
+}
+.login-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section, .right-section {
+  flex: 1;
+  padding: 40px;
+}
+
+.left-section {
+  text-align: center;
+  background-color: #fff;
+}
+
+.left-section h2 {
+  color: #6a1b9a;
+  font-weight: 600;
+}
+
+.left-section h1 {
+  color: #673ab7;
+  font-size: 45px;
+  margin: 10px 0;
+}
+
+.left-section p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.left-section img {
+  width: 250px;
+  max-width: 100%;
+}
+
+.right-section {
+  background-color: #f5f0fa;
+  border-left: 4px solid #673ab7;
+}
+
+.right-section h2 {
+  color: #4a148c;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.options a {
+  color: #673ab7;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  margin-top: 20px;
+  background-color: #673ab7;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.login-btn:hover {
+  background-color: #5e35b1;
+}
+
+.register-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register-text a {
+  color: #673ab7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-text a:hover {
+  text-decoration: underline;
+}
